@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>note.s ツ</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="content">
+      <div class="links">
+        <span class="menulink dropbox" href="" title="link your dropbox account">link dropbox</span>
+        |
+        <a class="menulink info" href="" title="get more info">info</a>
+        |
+        <a class="menulink new" href="" title="create a new note.">new</a>
+        |
+        <span class="count">n note.s</span>
+        
+        <a class="menulink undo" href="" title="undo last deletion">undo</a>
+      </div>
+
+      <div class="infobox whatnow hide">
+        <h1>What now?</h1>
+        <p><a class="menulink new" href="" title="create a new note.">Just add a new note.</a></p>
+      </div>
+
+      <div class="infobox info hide">
+        <h1>About note.s</h1>
+        <p>
+          note.s is a simple notes app that can sync all your notes with Dropbox.
+        </p>
+        <p class="symbols">
+          To correctly work with Dropbox, a note title can't contain the following characters:
+        </p>
+        <pre>/ \ | &gt; &lt; : ? * " ;</pre>
+        <p class="symbols">
+          note.s will silently ignore them, so make sure to set a correct title.
+        </p>
+        <p class="symbols">
+          For now all note.s are saved in the “notes” folder in your dropbox.
+          This will be configurable as soon as the dropbox sync is implemented and stable.
+        </p>
+      </div>
+
+      <div class="notes">
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="new_button">
+        <p><a class="menulink new" href="" title="create a new note.">new note</a></p>
+      </div>
+    </div>
+
+    <script src="../src/ext/jquery.min.js"></script>
+    <script src="../src/ext/underscore.min.js"></script>
+    <script src="../src/ext/jquery.jeditable.js"></script>
+    <script src="../src/ext/jquery.isotope.min.js"></script>
+    <script src="../src/require.js"></script>
+    <script src="../src/boot.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+﻿{
+  "name": "note.s - small notes editor, synced to dropbox",
+  "version": "0.0.1",
+  "icons": { 
+  },
+  "app": {
+    "launch": {
+      "local_path": "resources/application.html"
+    }
+  },
+  "background_page": "resources/background.html",
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://*.dropbox.com/",
+    "https://*.dropbox.com/"
+  ]
+}
