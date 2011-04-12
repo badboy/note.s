@@ -279,8 +279,8 @@ var Dropbox = function(consumerKey, consumerSecret) {
         authorize: function(callback) {
             if (!_tokens['accessToken'] && !_tokens['accessTokenSecret']) {
                 if (!_tokens['requestToken'] && !_tokens['requestTokenSecret']) { // Step 1
-                    var requestTokenUrl = "https://api.dropbox.com/" + _dropboxApiVersion + "/oauth/request_token";
-                    var authorizeUrl = "https://api.dropbox.com/" + _dropboxApiVersion + "/oauth/authorize";
+                    var requestTokenUrl = "https://www.dropbox.com/" + _dropboxApiVersion + "/oauth/request_token";
+                    var authorizeUrl = "https://www.dropbox.com/" + _dropboxApiVersion + "/oauth/authorize";
                     var message = _createOauthRequest(requestTokenUrl);
 
                     _sendOauthRequest(message, {
@@ -314,7 +314,7 @@ var Dropbox = function(consumerKey, consumerSecret) {
                         }).bind(this)
                     });
                 } else { // Step 2
-                    var accessTokenUrl = "https://api.dropbox.com/" + _dropboxApiVersion + "/oauth/access_token";
+                    var accessTokenUrl = "https://www.dropbox.com/" + _dropboxApiVersion + "/oauth/access_token";
                     var message = _createOauthRequest(accessTokenUrl);
 
                     _sendOauthRequest(message, {
