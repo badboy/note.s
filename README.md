@@ -3,6 +3,8 @@ note.s
 
 note.s is a simple notes app that can sync all your notes with Dropbox.
 
+![](http://tmp.fnordig.de/note.s-running-screenshot.png)
+
 Status
 ======
 
