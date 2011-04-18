@@ -16,6 +16,8 @@ How to use
 
 Load it as an unpacked extension in chrome.
 
+You should see it on your dashboard ([chrome://newtab](chrome://newtab)), without an icon yet (help me with that).
+
 On first start note.s should ask you for permission to connect to dropbox. If not, fix the code :P
 
 Misc
@@ -26,5 +28,17 @@ Thanks to [antimatter15](https://github.com/antimatter15) for his small but fanc
 
 Someone I forgot or someone just want to be mentioned here? Let me know, give me a reason and I add your name (;
 
+How to contribute
+=================
+
+Want to help?
+
+You got several options:
+
+If you just want to hack code: Fork it, make your changes and let me know (send me a pull request).
+
+If you can't code or don't want to: open issues with bugs or improvement suggestions. I will find some time to get it done.
+
+If you're an designer or just creative, do me a favour by creating a nice little icon for this extension.
 
 Jan-Erik aka badboy\_
